@@ -1,0 +1,26 @@
+.offer-list{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.offer-cards{
+    width: 45%;
+    height: 20em;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.offer-cards ::before{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.offer-cards:hover{
+    box-shadow: rgba(46, 240, 56, 0.4) -5px 5px,
+    rgba(46, 240, 88, 0.3) -10px 10px,
+    rgba(46, 240, 72, 0.2) -15px 15px,
+    rgba(46, 240, 62, 0.1) -20px 20px,
+    rgba(46, 240, 72, 0.05) -25px 25px;
+}
